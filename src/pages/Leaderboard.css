@@ -1,0 +1,45 @@
+.leaderboard-container {
+  padding: 40px;
+  min-height: 100vh;
+  background: linear-gradient(to right, #e3f2fd, #bbdefb);
+  font-family: sans-serif;
+}
+
+.section {
+  margin-bottom: 40px;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.section-title {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  color:  #1976d2;
+  margin-bottom: 20px;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+li {
+  font-size: 16px;
+  padding: 8px 0;
+  color: #333;
+  border-bottom: 1px dashed #e0e0e0;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.dynamic-span-0{
+    color: green;
+    display: block !important;
+    font-size: 12px;
+}

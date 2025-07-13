@@ -1,0 +1,55 @@
+.dashboard-container {
+  padding: 40px;
+  min-height: 100vh;
+  background: linear-gradient(to right, #e3f2fd, #bbdefb);
+  font-family: sans-serif;
+}
+
+.dashboard-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #1976d2;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #388e3c;
+  margin-bottom: 15px;
+}
+
+.complaints-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.complaint-item {
+  padding: 15px 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  font-size: 16px;
+  font-weight: 500;
+  color: #444;
+  transition: transform 0.2s;
+}
+
+.complaint-item:hover {
+  transform: scale(1.02);
+  background-color: #f0f0f0;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    line-height: 0.2;
+    padding: 0px;
+    margin: 10px;
+}
