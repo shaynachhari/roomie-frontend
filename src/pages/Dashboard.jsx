@@ -53,7 +53,7 @@ export default function Dashboard() {
               <button style={{background: 'red'}} onClick={()=>{downVote(c._id)}}>Downvote({c.downvotes?.length})</button>
               <button style={{background: 'green'}} onClick={()=>{upVote(c._id)}}>Upvote({c.upvotes?.length})</button>
               {
-                c.upvotes?.length >= 2 && 
+                c.upvotes?.length >= 10 && 
                 <>
                   <br/><strong style={{color: 'red'}}>Punishment</strong>
                   <ul>
